@@ -1,0 +1,47 @@
+var string = 'The revolution will not be televised.';
+string;
+
+var badString = string;
+badString;
+
+var sgl = 'Single quotes.';
+var dbl = "Double quotes.";
+sgl;
+dbl;
+
+var sglDbl = 'Would you eat a "fish supper"?';
+var dblSgl = "I'm feeling blue.";
+sglDbl;
+dblSgl;
+
+var bigmouth = 'I\'ve got no raight to take my place...';
+bigmouth;
+
+var one = 'Hello, ';
+var two = 'how are you?';
+var joined = one + two;
+joined;
+
+var multiple = one + one + one + one;
+multiple;
+
+var response = one + 'I am fine - ' + two;
+response;
+
+<button>Press me</button>
+var button = document.querySelector('button');
+button.onclick = function(){
+    var name = prompt('What is your name?');
+    alert('Hello ' + name + ', nice to see you!');
+}
+
+var myDate = '19' + '67';
+typeof myDate;
+
+var myString = '123';
+var myNum = Number(myString);
+typeof myNum;
+
+var myNum = 123;
+var myString = myNum.toString();
+typeof myString;
