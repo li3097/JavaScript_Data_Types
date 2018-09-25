@@ -1,0 +1,102 @@
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var sln = txt.length;
+
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
+
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("locate");
+
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("John");
+
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate", 15);
+
+var str = "Please locate where 'locate' occurs!";
+var pos = str.search("locate");
+
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(7, 13);
+
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(-12, -6);
+
+var res = str.slice(7);
+
+var res = str.slice(-12);
+
+var str = "Apple, Banana, Kiwi";
+var res = str.substring(7, 13);
+
+var str = "Apple, Banana, Kiwi";
+var res = str.substr(7, 6);
+
+var str = "Apple, Banana, Kiwi";
+var res = str.substr(7);
+
+str = "Please visit Microsoft!";
+var n = str.replace("Microsoft", "W3Schools");
+
+str = "Please visit Microsoft and Microsoft!";
+var n = str.replace("Microsoft", "W3Schools");
+
+str = "Please visit Microsoft!";
+var n = str.replace("MICROSOFT", "W3Schools");
+
+str = "Please visit Microsoft!";
+var n = str.replace(/MICROSOFT/i, "W3Schools");
+
+str = "Please visit Microsoft and Microsoft!";
+var n = str.replace(/Microsoft?g, "W3Schools");
+
+var text1 = "Hello World!";
+var text2 = text1.toUpperCase();
+
+var text1 = "Hello World!";
+var text2 = text1.toLowerCase();
+
+var text1 = "Hello";
+var text2 = "World";
+var text3 = text1.concat(" ", text 2);
+
+var text = "Hello" + " " + "World!";
+var text = "Hello".concat(" "), "World!";
+
+var str = "      Hello World!      ";
+alert(str.trim());
+
+var str = "       Hello World!        ";
+alert(str.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, '')); 
+
+if (!String.prototype.trim) {
+    String.prototype.trim = function () {
+    return this.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, '');
+};
+var str = "       Hello World!        ";
+alert(str.trim()); 
+
+var str = "HELLO WORLD";
+str.charAt(0);
+
+var str = "HELLO WORLD";
+str.charCodeAt(0);
+
+var str = "HELLO WORLD";
+str[0];
+
+var str = "HELLO WORLD";
+str[0] = "A";             // Gives no error, but does not work
+str[0]; 
+
+var txt = "a,b,c,d,e";   // String
+txt.split(",");          // Split on commas
+txt.split(" ");          // Split on spaces
+txt.split("|");          // Split on pipe 
+
+var txt = "Hello";
+txt.split("");
+
+
+
+
