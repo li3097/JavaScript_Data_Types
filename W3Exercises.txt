@@ -1,0 +1,18 @@
+var txt = "abcdefghijklm";
+var pos = txt.indexOf("h");
+
+var txt = "I can eat bananas all day";
+var x = txt.slice(10, 17);
+
+var txt = "Hello World";
+txt = txt.replace("World", "Welcome");
+
+var txt = "Hello World";
+txt = txt.toUpperCase();
+
+var txt = "Hello World";
+txt = txt.toLowerCase();
+
+var str1 = "Hello ";
+var str2 = "World!";
+var result = str1.concat(str2);
